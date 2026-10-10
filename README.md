@@ -4,10 +4,11 @@ An end-to-end financial analytics project exploring statistical arbitrage, pair 
 
 <p align="center">
   <a href="https://statistical-arbitrage-pair-trading-8pt9dnatsxudbbd7b4xw7.streamlit.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Launch%20Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Streamlit Demo">
+    <img src="https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Streamlit Demo">
   </a>
+  &nbsp;
   <a href="https://github.com/manjiriapshinge25/statistical-arbitrage-pair-trading">
-    <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
+    <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository">
   </a>
 </p>
 
