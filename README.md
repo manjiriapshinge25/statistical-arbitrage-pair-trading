@@ -1,304 +1,178 @@
-\# AI-Driven Pair Trading \& Financial Analytics Dashboard
+# AI-Driven Pair Trading & Financial Analytics Dashboard
 
+An end-to-end financial analytics project exploring statistical arbitrage, pair trading, time-series analysis, forecasting, and backtesting through an interactive Streamlit dashboard.
 
+<p align="center">
+  <a href="https://statistical-arbitrage-pair-trading-8pt9dnatsxudbbd7b4xw7.streamlit.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Launch%20Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Streamlit Demo">
+  </a>
+  <a href="https://github.com/manjiriapshinge25/statistical-arbitrage-pair-trading">
+    <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
+  </a>
+</p>
 
-An end-to-end financial analytics project exploring statistical arbitrage and pair trading using time-series analysis, statistical modeling, forecasting, backtesting, and an interactive Streamlit dashboard.
+## 🚀 Live Demo
 
+**[Launch the Interactive Dashboard](https://statistical-arbitrage-pair-trading-8pt9dnatsxudbbd7b4xw7.streamlit.app/)**
 
+Explore the dashboard's Overview, Pair Analysis, Backtest, and Forecasting pages.
 
-\## 🚀 Live Demo
-
-
-
-\*\*Try the interactive dashboard:\*\* \[Launch Live Demo](https://statistical-arbitrage-pair-trading-8pt9dnatsxuddbbd7b4xw7.streamlit.app/)
-
-
-
-
-
-\## 📌 Project Overview
-
-
+## 📌 Project Overview
 
 Pair trading is a statistical arbitrage strategy that seeks to capitalize on relative price movements between two historically related financial assets.
 
+This project combines financial data analysis, statistical modeling, time-series methods, and interactive visualization to investigate asset relationships, generate trading signals, and evaluate historical strategy performance.
 
+The dashboard supports analysis of Indian banking equities, including HDFC Bank and Kotak Mahindra Bank.
 
-This project explores financial relationships, spread behavior, trading signals, forecasting techniques, and historical strategy performance through Python-based analytics and an interactive dashboard.
+## ✨ Key Features
 
+- **Overview Dashboard:** View strategy signals, Z-scores, returns, maximum drawdown, and Sharpe ratio.
+- **Pair Analysis:** Investigate relationships between assets and examine spread behavior.
+- **Statistical Arbitrage:** Explore spread deviations and Z-score-based trading signals.
+- **Backtesting:** Evaluate historical strategy performance using metrics and visualizations.
+- **Forecasting:** Explore time-series forecasting visualizations.
+- **Interactive Controls:** Configure trading pairs, date ranges, strategy presets, and initial capital.
+- **Research Notebooks:** Explore financial analytics and model development.
 
+## 🛠️ Technology Stack
 
-\## ✨ Key Features
+| Technology       | Purpose                              |
+| ---------------- | ------------------------------------ |
+| Python           | Core programming language            |
+| Pandas           | Data manipulation and analysis       |
+| NumPy            | Numerical computation                |
+| Statsmodels      | Statistical and time-series modeling |
+| Plotly           | Interactive visualizations           |
+| Streamlit        | Web application and dashboard        |
+| yfinance         | Historical financial market data     |
+| Jupyter Notebook | Research and experimentation         |
 
-
-
-\- \*\*Pair Analysis:\*\* Explore relationships between financial assets and investigate cointegration.
-
-\- \*\*Statistical Arbitrage:\*\* Analyze spreads and Z-scores to identify potential trading opportunities.
-
-\- \*\*Time-Series Forecasting:\*\* Explore forecasting techniques for financial market data.
-
-\- \*\*Backtesting:\*\* Evaluate historical strategy performance using analytical metrics and visualizations.
-
-\- \*\*Interactive Dashboard:\*\* Navigate financial analytics through a multi-page Streamlit application.
-
-\- \*\*Research Notebooks:\*\* Explore financial data, statistical models, and trading strategy development.
-
-
-
-\## 🛠️ Technology Stack
-
-
-
-\- Python
-
-\- Pandas and NumPy
-
-\- Statsmodels
-
-\- Plotly
-
-\- Streamlit
-
-\- yfinance
-
-\- Jupyter Notebook
-
-
-
-\## 📂 Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
 statistical-arbitrage-pair-trading/
-
-├── app\_pages/
-
+├── app_pages/
 │   ├── overview.py
-
-│   ├── pair\_analysis.py
-
+│   ├── pair_analysis.py
 │   ├── backtest.py
-
 │   └── forecasting.py
-
 ├── src/
-
 │   ├── config.py
-
 │   ├── data.py
-
-│   ├── page\_helpers.py
-
+│   ├── page_helpers.py
 │   ├── research.py
-
 │   └── backtest.py
-
 ├── tests/
-
-│   └── test\_research.py
-
-├── AI-Driven Pair Trading \& Financial Analytics Dashboard.ipynb
-
-├── pair\_trading\_dashboard.ipynb
-
-├── pair\_trading\_app.py
-
+│   └── test_research.py
+├── AI-Driven Pair Trading & Financial Analytics Dashboard.ipynb
+├── pair_trading_dashboard.ipynb
+├── pair_trading_app.py
 ├── requirements.txt
-
 └── .gitignore
-
 ```
 
+## 🔬 Analytical Methodology
 
+1. **Data Collection:** Retrieve historical financial market data.
+2. **Exploratory Analysis:** Examine price movements and relationships between assets.
+3. **Statistical Analysis:** Investigate cointegration and estimate relationships between selected assets.
+4. **Spread Construction:** Analyze relative price movements through a spread.
+5. **Signal Generation:** Use spread behavior and Z-scores to explore potential trading signals.
+6. **Forecasting:** Apply time-series forecasting methods where appropriate.
+7. **Backtesting:** Evaluate historical strategy performance.
+8. **Visualization:** Present analytical results through interactive charts.
 
-\## 🔬 Analytical Methodology
+## 📊 Performance Metrics
 
+The dashboard displays metrics such as:
 
+- Strategy return
+- Benchmark return
+- Maximum drawdown
+- Sharpe ratio
+- Latest trading signal and Z-score
+- Number of signal changes
 
-1\. \*\*Data Collection:\*\* Retrieve historical financial market data.
+Results depend on the selected assets, date range, strategy configuration, and underlying calculations. Historical performance does not guarantee future returns.
 
-2\. \*\*Exploratory Data Analysis:\*\* Examine asset prices and their relationships.
+## 💻 Installation and Usage
 
-3\. \*\*Statistical Analysis:\*\* Investigate cointegration and estimate relationships between selected assets.
+### Prerequisites
 
-4\. \*\*Spread Construction:\*\* Analyze relative price movements using a spread.
+- Python 3.10 or a compatible version
+- Git
+- pip
 
-5\. \*\*Signal Generation:\*\* Use spread behavior and Z-scores to explore potential trading signals.
-
-6\. \*\*Forecasting:\*\* Apply time-series forecasting techniques where appropriate.
-
-7\. \*\*Backtesting:\*\* Evaluate historical trading strategy performance.
-
-8\. \*\*Visualization:\*\* Present findings through interactive charts and dashboard components.
-
-
-
-\## 💻 Getting Started
-
-
-
-\### Prerequisites
-
-
-
-\- Python 3.10 or a compatible Python version
-
-\- Git
-
-\- pip
-
-
-
-\### Installation
-
-
-
-Clone the repository:
-
-
+### 1. Clone the repository
 
 ```bash
-
 git clone https://github.com/manjiriapshinge25/statistical-arbitrage-pair-trading.git
-
 cd statistical-arbitrage-pair-trading
-
 ```
 
+### 2. Create a virtual environment
 
-
-Create and activate a virtual environment.
-
-
-
-\*\*Windows:\*\*
-
-
+**Windows:**
 
 ```bash
-
 python -m venv .venv
-
-.venv\\Scripts\\activate
-
+.venv\Scripts\activate
 ```
 
-
-
-Install the required dependencies:
-
-
+### 3. Install dependencies
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
-
-
-\### Run the Application
-
-
+### 4. Run the dashboard
 
 ```bash
-
-streamlit run pair\_trading\_app.py
-
+streamlit run pair_trading_app.py
 ```
 
+Open the local URL displayed in your terminal.
 
+## 🧪 Testing
 
-Once the application starts, open the local URL displayed in your terminal.
-
-
-
-\## 🧪 Testing
-
-
-
-The repository includes a `tests/` directory for testing research functionality.
-
-
+The repository includes a `tests/` directory for research-related tests.
 
 Run the tests with:
 
-
-
 ```bash
-
 python -m pytest tests/
-
 ```
 
+Install `pytest` separately if it is not included in the dependencies.
 
-
-Install `pytest` if it is not already available in your environment.
-
-
-
-\## 🎯 Learning Objectives
-
-
+## 🎯 Learning Objectives
 
 This project explores practical applications of:
 
+- Statistical arbitrage and pair trading
+- Time-series analysis and cointegration
+- Financial data analysis
+- Trading signal generation
+- Forecasting and backtesting
+- Interactive dashboard development
 
+## ⚠️ Limitations and Disclaimer
 
-\- Statistical arbitrage and pair trading
+Historical relationships between assets can change over time. Backtesting results do not guarantee future performance. Real-world trading also involves transaction costs, slippage, liquidity constraints, execution risk, and changing market conditions.
 
-\- Time-series analysis and cointegration
+This project is intended for educational and analytical purposes only. It does not constitute financial advice or a recommendation to buy or sell securities.
 
-\- Financial data analysis
+## 👩‍💻 Author
 
-\- Forecasting and backtesting
-
-\- Python application development
-
-\- Interactive data visualization
-
-
-
-\## ⚠️ Limitations and Disclaimer
-
-
-
-Historical relationships between financial assets can change over time. Backtesting results do not guarantee future performance. Real-world trading also involves transaction costs, slippage, liquidity constraints, and market risk.
-
-
-
-This project is intended for educational and analytical purposes only and does not constitute financial advice.
-
-
-
-\## 👩‍💻 Author
-
-
-
-\*\*Manjiri Apshinge\*\*
-
-
+**Manjiri Apshinge**
 
 M.Sc. Data Science | NMIMS
 
+- GitHub: [@manjiriapshinge25](https://github.com/manjiriapshinge25)
+- Repository: [AI-Driven Pair Trading & Financial Analytics Dashboard](https://github.com/manjiriapshinge25/statistical-arbitrage-pair-trading)
+- Live Demo: [Open Streamlit Dashboard](https://statistical-arbitrage-pair-trading-8pt9dnatsxudbbd7b4xw7.streamlit.app/)
 
+---
 
-\- GitHub: \[@manjiriapshinge25](https://github.com/manjiriapshinge25)
-
-\- Repository: \[AI-Driven Pair Trading \& Financial Analytics Dashboard](https://github.com/manjiriapshinge25/statistical-arbitrage-pair-trading)
-
-\- Live Demo: \[Streamlit Dashboard](https://statistical-arbitrage-pair-trading-8pt9dnatsxuddbbd7b4xw7.streamlit.app/)
-
-
-
-\---
-
-
-
-\*Exploring the intersection of data science, statistical modeling, and financial analytics.\*
-
-
-
+*Exploring the intersection of data science, statistical modeling, and financial analytics.*
