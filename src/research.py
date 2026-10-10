@@ -20,17 +20,15 @@ def calculate_research_metrics(
         log_prices[second_asset],
     )
     adf_stat, adf_pvalue, _, _, _, _ = adfuller(
-        spread.dropna(),
-        autolag="AIC",
-        result_object=False,
-    )
+    spread.dropna(),
+    autolag="AIC",
+)
     try:
         kpss_stat, kpss_pvalue, _, _ = kpss(
-            spread.dropna(),
-            regression="c",
-            nlags="auto",
-            result_object=False,
-        )
+    spread.dropna(),
+    regression="c",
+    nlags="auto",
+)
     except ValueError:
         kpss_stat, kpss_pvalue = np.nan, np.nan
 
