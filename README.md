@@ -13,9 +13,15 @@ An end-to-end financial analytics project exploring statistical arbitrage, pair 
 
 ## 🚀 Live Demo
 
-**[Launch the Interactive Dashboard](https://statistical-arbitrage-pair-trading-8pt9dnatsxudbbd7b4xw7.streamlit.app/)**
+Explore the interactive dashboard here:
 
-Explore the dashboard's Overview, Pair Analysis, Backtest, and Forecasting pages.
+**[Open the Pair Trading Dashboard](https://statistical-arbitrage-pair-trading-8pt9dnatsxuddbbd7b4xw7.streamlit.app/)**
+
+The dashboard includes:
+- Overview of strategy performance and current trading signals
+- Pair analysis with spread and statistical analysis
+- Backtesting and performance evaluation
+- Forecasting and financial analytics
 
 ## 📌 Project Overview
 
@@ -171,7 +177,7 @@ M.Sc. Data Science | NMIMS
 
 - GitHub: [@manjiriapshinge25](https://github.com/manjiriapshinge25)
 - Repository: [AI-Driven Pair Trading & Financial Analytics Dashboard](https://github.com/manjiriapshinge25/statistical-arbitrage-pair-trading)
-- Live Demo: [Open Streamlit Dashboard](https://statistical-arbitrage-pair-trading-8pt9dnatsxudbbd7b4xw7.streamlit.app/)
+- Live Demo: [Open Streamlit Dashboard](https://statistical-arbitrage-pair-trading-8pt9dnatsxuddbbd7b4xw7.streamlit.app/)
 
 ---
 
